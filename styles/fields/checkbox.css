@@ -21,15 +21,24 @@
 .checkbox-group-theme {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+  margin-bottom: 1.75rem;
 }
 .theme-option {
   position: relative;
   border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 4px 8px 4px;
   background-color: var(--shape-button);
+}
+.theme-option p{
+  place-self: center;
+  padding-inline: 4px;
+  padding-block: 8px;
 }
 .theme-option img{
   width: 100%;
-  
 }
 .theme-option input[type="checkbox"]{
   position: absolute;
