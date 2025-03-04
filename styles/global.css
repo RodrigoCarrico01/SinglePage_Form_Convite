@@ -38,17 +38,28 @@
   --font-family-baloo: 'Baloo 2', sans-serif;
   --font-family-open-sans: 'Open Sans', sans-serif;
 
-  --logo: 400 2.5rem/auto var(--font-family-leckerli);
-  --heading-md: 700 1.75rem/auto var(--font-family-baloo);
-  --heading-sm: 700 1.125rem/auto var(--font-family-baloo);
-  --body-md: 550 1rem/auto var(--font-family-open-sans);
-  --body-md: 550 .875rem/auto var(--font-family-open-sans);
-  --body-md: 550 .75rem/auto var(--font-family-open-sans);
+  --logo: 400 2.5rem/normal var(--font-family-leckerli);
+
+  --heading-md: 700 1.75rem/normal var(--font-family-baloo);
+  --heading-sm: 700 1.125rem/normal var(--font-family-baloo);
+
+  --body-md: 500 1rem/normal var(--font-family-open-sans);
+  --body-sm: 500 .875rem/normal var(--font-family-open-sans);
+  --body-xs: 500 .75rem/normal var(--font-family-open-sans);
 
 }
 
 body{
-  background-color: #1E1E1E;
+  background-color: var(--shape-background);
   font: var(--body-md);
   color: var(--text-body);
+  overflow: hidden;
+}
+h1{
+  font: var(--logo);
+  color: var(--pink);
+}
+img{
+  height: auto;
+  max-width: 100%;
 }

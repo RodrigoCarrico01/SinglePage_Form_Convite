@@ -1,0 +1,40 @@
+#app{
+  display: grid;
+  grid-template-columns: auto 67.21%;
+  height: 100vh;
+  overflow: hidden;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  justify-content: center ;
+
+}
+aside{
+  overflow: hidden;
+  border-radius: .75rem;
+  background-color: var(--shape-body);
+  height: fit-content;
+  background-image: url(../assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  & .aside-container{
+    
+    margin-inline: 2rem;
+    margin-block: 2rem 34.5rem;
+    img{
+      width: 2.86rem;
+      margin-bottom: 1rem;
+    }
+    h1{
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+main{
+  overflow: auto;
+  border-radius: .75rem;
+  background-color: var(--shape-body);
+  & .main-container{
+    
+  }
+}
