@@ -5,6 +5,7 @@
   border: 1px solid var(--input-stroke);
   border-radius: .5rem;
   height: 3.45rem;
+  color: var(--input-placeholder);
 }
 .box-option-wrapper {
   display: flex;
@@ -45,8 +46,23 @@
 }
 #presencial:checked ~ .box-option-wrapper .bg {
   transform: translateX(0%);
+  
 }
 
 #online:checked ~ .box-option-wrapper .bg {
   transform: translateX(100%);
 }
+#presencial:checked ~ .box-option-wrapper .icon-presencial{
+  stroke: var(--brand-mid);
+}
+#online:checked ~ .box-option-wrapper .icon-online{
+   stroke: var(--brand-mid);
+}
+
+#presencial:checked ~ .box-option-wrapper .p-presencial{
+  color: var(--text-heading);
+}
+#online:checked ~ .box-option-wrapper .p-online{
+   color: var(--text-heading);
+}
+
