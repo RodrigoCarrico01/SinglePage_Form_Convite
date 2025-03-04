@@ -39,4 +39,23 @@
   background-color: var(--danger) ;
 }
 
+.text-sm{
+  font: var(--text-sm)
+}
 
+.birthday-bg{
+  background-image: url(../../assets/images/Image.svg);
+  background-size:cover;
+}
+.kids-bg{
+  background-image: url(../../assets/images/Image-1.svg);
+  background-size:cover;
+}
+.graduation-bg{
+  background-image: url(../../assets/images/Image-2.svg);
+  background-size:cover;
+}
+.marriage-bg{
+  background-image: url(../../assets/images/Image-3.svg);
+  background-size:cover;
+}
