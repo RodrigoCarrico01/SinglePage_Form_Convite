@@ -1,0 +1,35 @@
+.radio-wrapper .boxzone{
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+  justify-content: space-evenly;
+  gap: .5rem;
+  /* padding: 1rem; */
+  padding: 0.25rem;
+  height: 3.45rem;
+}
+
+.radio-wrapper .boxzone img  {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.radio-wrapper .boxzone input  {
+  display: none;
+}
+.radio-wrapper .boxzone .box-option{
+  width: 100%;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  border-radius: 0.3125rem;
+}
+/* .bg{
+  background-color: red;
+} */
+.radio-wrapper .boxzone .box-option:nth-child(1):has(:checked){
+  background-color: red;
+}
+.radio-wrapper .boxzone .box-option:nth-child(2):has(:checked){
+  background-color: red;
+}

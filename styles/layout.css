@@ -12,10 +12,9 @@ aside{
   overflow: hidden;
   border-radius: .75rem;
   background-color: var(--shape-body);
-  height: fit-content;
   background-image: url(../assets/Background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: bottom;
   & .aside-container{
     

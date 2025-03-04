@@ -1,0 +1,28 @@
+input, textarea, select, radio{
+  appearance: none;
+  width: 100%;
+  border: 1px solid var(--input-stroke);
+  outline: none;
+  background-color: var(--input-base);
+  border-radius: .5rem;
+  gap: .5rem;
+  padding: 1rem;
+  font: var(--body-md);
+  color: var(--input-placeholder);
+}
+input::placeholder{
+  color: var(--input-placeholder);
+}
+input[type="date"]{
+  text-transform: uppercase;
+  &::-webkit-calendar-picker-indicator{
+    display: none;
+  }
+}
+.input-title{
+  font: var(--text-md);
+  color: var(--text-body);
+  display: block;
+  margin-bottom: .75rem;
+}
+
