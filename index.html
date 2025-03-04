@@ -21,7 +21,43 @@
       </div>
     </aside>
     <main>
-      <div class="main-container">main</div>
+      <div class="main-container">
+        <h2>Crie seu convite</h2>
+        <form>
+          <fieldset class="about">
+            <legend><img src="assets/icons/calendar.svg" alt="logo de calendario">Sobre o evento</legend>
+            <div class="input-wrapper">
+              <label for="eventname">Título</label>
+              <input type="text" name="eventname" id="eventname" placeholder="Nome do evento">
+            </div>
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label for="startdate">Início</label>
+                <input type="date" name="startdate" id="startdate">
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="enddate">Fim</label>
+                <input type="date" name="enddate" id="enddate">
+              </div>
+            </div>
+            <div class="flex">
+              <div class="radio-wrapper flex-1">
+                <label for="radiotype">Tipo</label>
+                <input type="radio" name="presencial" id="radiotype">
+                <input type="radio" name="online" id="radiotype">
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="eventlocal">Local</label>
+                <input type="text" name="eventlocal" id="eventlocal" placeholder="Link ou endereço">
+              </div>
+            </div>
+            <div class="textarea-wrapper">
+              <label for="description">Descrição</label>
+              <textarea name="description" id="description" cols="30" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </main>
   </div>
 </body>

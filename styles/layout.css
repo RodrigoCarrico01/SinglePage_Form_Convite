@@ -35,6 +35,7 @@ main{
   border-radius: .75rem;
   background-color: var(--shape-body);
   & .main-container{
-    
+    padding-inline: 8.125rem;
+    padding-block: 5rem;
   }
 }
