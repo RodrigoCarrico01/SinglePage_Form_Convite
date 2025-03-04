@@ -5,5 +5,38 @@
 .flex-1{
   flex: 1;
 }
+.brand-light{
+  background-color: var(--brand-light);
+}
+.navy{
+  background-color: var(--navy);
+}
+.purple{
+  background-color: var(--purple);
+}
+.fuschia{
+  background-color: var(--fuschia);
+}
+.pink{
+  background-color: var(--pink);
+}
+.orange{
+  background-color: var(--orange);
+}
+.yellow{
+  background-color: var(--yellow);
+}
+.lime{
+  background-color: var(--lime);
+}
+.green{
+  background-color: var(--green);
+}
+.cyan{
+  background-color: var(--cyan);
+}
+.red{
+  background-color: var(--danger) ;
+}
 
 

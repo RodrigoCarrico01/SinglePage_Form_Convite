@@ -1,0 +1,20 @@
+.checkbox-group{
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  margin-block: 1rem 1.75rem;
+}
+
+input[type="checkbox"]{
+  border:6px solid var(--shape-button);
+
+  border-radius: 50%;
+  width: fit-content;
+}
+input[type="checkbox"]:hover{
+  border:6px solid var(--shape-hover);
+}
+input[type="checkbox"]:checked{
+  border:6px solid var(--shape-button);
+  box-shadow: 0 0 0 .125rem var(--brand-light);
+}
+

@@ -10,6 +10,9 @@ input, textarea, select, radio{
   font: var(--body-md);
   color: var(--input-placeholder);
 }
+textarea {
+  resize: none; 
+}
 input::placeholder{
   color: var(--input-placeholder);
 }
