@@ -5,6 +5,12 @@
 .flex-1{
   flex: 1;
 }
+.flex-1-2{
+  flex: 1.2;
+}
+.flex-2{
+  flex: 2;
+}
 .brand-light{
   background-color: var(--brand-light);
 }

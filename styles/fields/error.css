@@ -1,5 +1,5 @@
 
-.input-wrapper input:invalid {
+.input-wrapper input[type="text"]:invalid {
   border: 1px solid var(--danger);
 }
 
@@ -13,13 +13,13 @@
   gap: 0.5rem;
 }
 
-.input-wrapper input:invalid ~  .error {
+.input-wrapper input[type="text"]:invalid ~  .error {
   display: flex;
 }
 
 
-.input-wrapper input:valid ~ .error {
-  display: none;
+.input-wrapper input[type="text"]:valid ~ .error {
+  opacity: 0;
 }
 
 .input-wrapper .error svg {
