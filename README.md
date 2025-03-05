@@ -22,7 +22,7 @@ O Terceiro desafio prático da trilha Full-Stack, promovido pela Rocketseat para
   <img alt="FormularioConvite" src="assets/Thumbnail.png" width="100%">
 </p>
 
-## Tecnologias
+## Tecnologias"
 
 - **HTML5** para estruturação do conteúdo
 - **CSS3** para estilização
@@ -35,7 +35,7 @@ O Terceiro desafio prático da trilha Full-Stack, promovido pela Rocketseat para
 
 ## Layout
 
-Tu podes visualizar o layout do projeto através [DESTE LINK](www.figma.com/design/H86QIEeJAECROFmg1iuMMP/Formulário-de-convite-(Community)?m=auto&is-community-duplicate=1&fuid=1288928457713855703). É necessário ter conta no [Figma](https://figma.com) para acedê-lo.
+Tu podes visualizar o layout do projeto através [DESTE LINK](https://www.figma.com/design/H86QIEeJAECROFmg1iuMMP/Formulário-de-convite-(Community)?node-id=0-1&p=f&t=SkV5lJr9FNy5Msbl-0). É necessário ter conta no [Figma](https://figma.com) para acedê-lo.
 
 ## Licença
 
