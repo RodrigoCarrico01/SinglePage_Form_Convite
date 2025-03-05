@@ -63,3 +63,13 @@ img{
   height: auto;
   max-width: 100%;
 }
+
+a {
+  all: unset; 
+  display: inline; 
+  cursor: pointer; 
+}
+
+::-webkit-scrollbar {
+  all: unset;
+}

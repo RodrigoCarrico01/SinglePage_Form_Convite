@@ -1,0 +1,26 @@
+.actions-wrapper{
+  padding-top: 3rem;
+  justify-items: end;
+}
+
+button {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  color: var(--text-highlight);
+  padding: .25rem 1.25rem; 
+  gap: .75rem;
+  align-items: center;
+  height: 3rem;
+  border-radius: .5rem;
+  cursor: pointer;
+
+  &.btn-primary{
+    color: var(--surface-primary);
+    background-color: var(--brand-dark); 
+  
+    &:hover, &:focus{
+      background-color: var(--brand-mid);
+    }
+  }
+} 

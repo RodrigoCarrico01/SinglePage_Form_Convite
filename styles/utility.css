@@ -46,7 +46,10 @@
 }
 
 .text-sm{
-  font: var(--text-sm)
+  font: var(--body-sm);
+}
+.text-xs{
+  font: var(--body-xs);
 }
 
 .birthday-bg{
