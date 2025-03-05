@@ -1,0 +1,29 @@
+
+.input-wrapper input:invalid {
+  border: 1px solid var(--danger);
+}
+
+.input-wrapper .error {
+  display: none;
+  color: var(--danger);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-wrapper input:invalid ~  .error {
+  display: flex;
+}
+
+
+.input-wrapper input:valid ~ .error {
+  display: none;
+}
+
+.input-wrapper .error svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--danger);
+}
